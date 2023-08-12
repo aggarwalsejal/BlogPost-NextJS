@@ -1,0 +1,52 @@
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import styles from "@/styles/Home.module.css";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>Blog Post</title>
+        <meta name="description" content="A blog post website to store the solutions for the future coders" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <nav className={styles.mainnav}>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <main className={styles.main}>
+      <h1 className={styles.title}>
+        Blog Post
+      </h1>
+      <p className={styles.description}>
+      A blog post website to store the solutions for the future coders
+      </p>
+    <div className={styles.blogs}>
+      <h2>Popular Blogs</h2>
+      <h3>first blog</h3>
+      <p>Series method to discuss small problems</p>
+    </div>
+    <div className={styles.blogs}>
+      <h3>first blog</h3>
+      <p>Series method to discuss small problems</p>
+    </div>
+    <div className={styles.blogs}>
+      <h3>first blog</h3>
+      <p>Series method to discuss small problems</p>
+    </div>
+    <div className={styles.blogs}>
+      <h3>first blog</h3>
+      <p>Series method to discuss small problems</p>
+    </div>
+      </main>
+    </>
+  );
+}
