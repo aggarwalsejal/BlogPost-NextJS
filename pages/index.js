@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-     <div className={styles.container}>
+    <div className={styles.container}>
       <style jsx>
         {`
          
@@ -27,15 +27,17 @@ export default function Home() {
       <h1 className={styles.title}>
         Blog Post
       </h1>
-    <div className={styles.Imagewrap}>
-      <Image className={styles.myImg} src="/photo-1626968361222-291e74711449.avif" alt="" width={358} height={325}></Image>
+      <div className={styles.Imagewrap}>
+      <Image className={styles.myImg} src="/home.avif" alt="" width={358} height={325}></Image>
       </div>
 
       <p className={styles.description}>
       A blog post website to store the solutions for the future coders
       </p>
-    <div className={styles.blogs}>
+      <div>
       <h2>Popular Blogs</h2>
+    <div className={styles.blogs}>
+     
       <h3>first blog</h3>
       <p>Series method to discuss small problems</p>
     </div>
@@ -50,6 +52,7 @@ export default function Home() {
     <div className={styles.blogs}>
       <h3>first blog</h3>
       <p>Series method to discuss small problems</p>
+    </div>
     </div>
       </main>
     </>
