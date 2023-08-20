@@ -27,6 +27,10 @@ export default function Home() {
       <h1 className={styles.title}>
         Blog Post
       </h1>
+    <div className={styles.Imagewrap}>
+      <Image className={styles.myImg} src="/home.avif" alt="" width={358} height={325}></Image>
+      </div>
+
       <p className={styles.description}>
       A blog post website to store the solutions for the future coders
       </p>
