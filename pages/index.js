@@ -9,6 +9,13 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
+     <div className={styles.container}>
+      <style jsx>
+        {`
+         
+          `}
+      </style>
+    </div>
       <Head>
         <title>Blog Post</title>
         <meta name="description" content="A blog post website to store the solutions for the future coders" />
