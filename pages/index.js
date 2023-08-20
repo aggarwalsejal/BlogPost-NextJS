@@ -28,7 +28,7 @@ export default function Home() {
         Blog Post
       </h1>
     <div className={styles.Imagewrap}>
-      <Image className={styles.myImg} src="/home.avif" alt="" width={358} height={325}></Image>
+      <Image className={styles.myImg} src="/photo-1626968361222-291e74711449.avif" alt="" width={358} height={325}></Image>
       </div>
 
       <p className={styles.description}>
